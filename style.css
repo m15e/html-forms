@@ -45,9 +45,10 @@ header {
   align-items: center;
 }
 
-#top-buttons button img {
+#top-buttons button img, #signup-form img {
   width: 12px;
   height: auto;
+  margin-right: 5px;
 }
 
 /* signup form */
@@ -58,15 +59,15 @@ main {
   align-items: center;
 }
 
-main img {
-  margin: 10vh auto 0;
+#logos {
+  margin: 12vh auto 0;
   width: 350px;
 }
 
 #signup-form {
   width: 27%;
   height: 50%;
-  margin: 0 auto;
+  margin: 0 auto 20px;
   background-color: #fff;
   border: 1px solid #C7C7C7;
   display: flex;
@@ -81,7 +82,8 @@ main img {
 
 #signup-form p {
   color: #4C4C4C;
-  font-size: 14px;
+  font-size: 13px;
+  margin: 0 auto;
 }
 
 #signup-form label {
@@ -110,10 +112,24 @@ main img {
   border-radius: 4px;
 }
 
+#signup-form button img {
+  width: 14px!important;
+}
+
+#signup-form button {
+  padding: 9px 20px;
+  margin-left: 6px;
+  display: flex;
+  font-size: 16px;
+  align-items: center;
+  justify-content: center;
+}
+
 #privacy-statement {
   font-style: italic;
   font-size: 12px!important;
   width: 67%;
+  padding: 40px 0 30px;
   line-height: 1.9;
 }
 
