@@ -3,6 +3,12 @@ html {
   width: 100vw;
 }
 
+body {
+  background-color: #ECEEF1;
+}
+
+/* header */
+
 header {
   width: 100%;
   padding-right: 5%;
@@ -13,6 +19,8 @@ header {
   position: absolute;
   right: 0px;
 }
+
+/* signup form */
 
 main {
   display: flex;
@@ -37,12 +45,14 @@ main {
   width: 100%;
 }
 
-/* Align text centrally*/
+/* footer */
+
+/* Align text centrally */
 
 #signup-form p {
   text-align: center;
 }
 
 #signup-form-footer {
-  background-color: #ECEEF1;
+  /* background-color: #ECEEF1; */
 }
