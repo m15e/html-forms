@@ -6,6 +6,7 @@ html {
 body {
   background-color: #ECEEF1;
   font-family: 'Open Sans', sans-serif;
+  margin: 0px;
 }
 
 a {
@@ -24,6 +25,9 @@ header {
   float: right;
   position: absolute;
   right: 0px;
+  display: flex;
+  align-items: center;
+  margin-right: 27px;
 }
 
 #top-buttons ul {
@@ -32,6 +36,19 @@ header {
 
 #top-buttons li {
   list-style-type: none;
+  font-size: 12px;
+}
+
+#top-buttons button {
+  padding: 9px 20px;
+  margin-left: 6px;
+  display: flex;
+  align-items: center;
+}
+
+#top-buttons button img {
+  width: 12px;
+  height: auto;
 }
 
 /* signup form */
