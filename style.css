@@ -183,3 +183,14 @@ footer p {
   color: #4C4C4C;
   margin-top: 1px;
 }
+
+#privacy {
+  color: #fff;
+  background-color: #6B6C72;
+  border-radius: 3px;
+  padding: 10px 15px;
+  position: fixed;
+  bottom: 0; 
+  border: none;
+  right: 5%;
+}
