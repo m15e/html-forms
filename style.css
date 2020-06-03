@@ -55,14 +55,19 @@ header {
 
 main {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-
+main img {
+  margin: 10vh auto 0;
+  width: 350px;
+}
 
 #signup-form {
   width: 27%;
   height: 50%;
-  margin: 21vh auto;
+  margin: 0 auto;
   background-color: #fff;
   border: 1px solid #C7C7C7;
   display: flex;
