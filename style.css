@@ -1,18 +1,45 @@
+html {
+  height: 120vh;
+  width: 100vw;
+}
+
 header {
   width: 100%;
+  padding-right: 5%;
 }
 
 #top-buttons {
   float: right;
+  position: absolute;
+  right: 0px;
 }
-
 
 main {
   display: flex;
+  height: 100vh;
 }
 
-
 #signup-form {
-  width: 20%;
+  width: 27%;
+  height: 100%;
   margin: 15vh auto;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#signup-form label, #signup-form button {
+  margin-top: 20%;
+  width: 80%;
+}
+
+#signup-form input, #signup-form input[type="tel"] {
+  width: 100%;
+}
+
+/* Align text centrally*/
+
+#signup-form p {
+  text-align: center;
 }
