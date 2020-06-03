@@ -100,6 +100,7 @@ main img {
   height: 34px;
   border: 1px solid #C1C5C8;
   border-radius: 3px;
+  padding-left: 8px;
 }
 
 #signup-form button, #top-buttons button {
@@ -112,17 +113,9 @@ main img {
 #privacy-statement {
   font-style: italic;
   font-size: 12px!important;
-  width: 70%;
+  width: 67%;
   line-height: 1.9;
 }
-
-/* footer */
-
-footer {
-  font-size: 12px;
-  color: #4C4C4C;
-}
-
 
 
 /* Align text centrally */
@@ -142,4 +135,35 @@ footer {
  
 #signup-form-captcha a, #signup-form-captcha p {
   font-size: 10px!important;
+}
+
+/* footer */
+
+footer {
+  font-size: 12px;
+  color: rgb(54, 42, 42);
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+  margin: 15px auto 0;
+
+}
+
+footer li {
+  list-style-type: none;
+  margin-right: 15px;
+}
+
+footer li a {
+  color: #4C4C4C;
+  text-decoration: none;
+  font-size: 11px;
+}
+
+footer p {
+  text-align: center;
+  color: #4C4C4C;
+  margin-top: 1px;
 }
