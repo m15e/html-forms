@@ -1,0 +1,18 @@
+header {
+  width: 100%;
+}
+
+#top-buttons {
+  float: right;
+}
+
+
+main {
+  display: flex;
+}
+
+
+#signup-form {
+  width: 20%;
+  margin: 15vh auto;
+}

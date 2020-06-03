@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <title>Mint Signup Clone</title>
+</head>
+
+<body>
+
+<header>
+  <div id='top-buttons'>
+    <ul>
+      <li><span>Already have an Intuit account?</span></li>
+      <li><a href="#forgot">I forgot my User ID or Password</a></li>
+    </ul>
+    <button>Sign In</button>
+  </div>
+</header>
+
+<main>
+  <form action='/signup' method="POST" id="signup-form">
+    <label>
+      Email address
+      <input type="email" name="email">
+    </label>  
+    <label>
+      Phone (recommended)
+      <input type='number' name="phone">
+    </label>
+    <sub>Standard call, messaging or data rates may apply.</sub>
+    <label>
+      Password
+      <input type='password' name="password">
+    </label>
+    <button>Create Account</button>
+  </form>
+</main>
+
+
+
+</body>
+</html>
