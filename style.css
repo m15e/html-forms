@@ -77,8 +77,8 @@ footer p {
   align-items: center;
 }
 
-#top-buttons button img,
-#signup-form img {
+#signup-form img,
+#top-buttons button img {
   width: 12px;
   height: auto;
   margin-right: 5px;
@@ -179,7 +179,7 @@ main {
 #signup-form-captcha p {
   padding: 10px;
 }
- 
+
 #signup-form-captcha a,
 #signup-form-captcha p {
   font-size: 10px !important;
