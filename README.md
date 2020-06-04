@@ -13,7 +13,7 @@ This project demonstrates the use of forms on webpages, as one might use signing
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/m15e/html-forms/tree/mint-signup-form)
+[Live Demo Link](https://nifty-bartik-d751da.netlify.app/)
 
 ## Getting Started
 
