@@ -90,9 +90,49 @@ main {
   align-items: center;
 }
 
-#logos {
-  margin: 12vh auto 0;
-  width: 350px;
+.logo-row {
+  margin-top: 12vh;
+}
+
+.logo-row img[alt='intuit logo'] {
+  width: 120px;
+  display: block;
+  margin: 0 auto;
+}
+
+.logo-row ul {
+  display: flex;
+}
+
+.logo-row ul li {
+  list-style-type: none;
+  display: inline-flex;
+  align-items: center;
+  color: #6b6b72;
+}
+
+.logo-row ul img {
+  height: auto;
+}
+
+.logo-row ul li:first-of-type img {
+  width: 29px;
+}
+
+.logo-row ul li:nth-of-type(3) img {
+  width: 25px;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.logo-row ul li:nth-of-type(5) img {
+  width: 65px;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.logo-row ul li:nth-of-type(even) {
+  
 }
 
 .signup-form {
