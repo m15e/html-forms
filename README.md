@@ -27,11 +27,14 @@ Just a computer, some space on your hard-drive and a browser of your choosing!
 
 👤 **Joe Burke**
 
-- Github: [@githubhandle](https://github.com/Joseph-Burke)
+- Github: [@Joseph-Burke](https://github.com/githubhandle)
+- Twitter: [@__joeburke](https://twitter.com/__joeburke)
+- Linkedin: [Joseph Burke](https://www.linkedin.com/in/joseph-burke-b7a8261a5)
+- E-mail: joseph_burke@outlook.com
 
 👤 **Mark Rode**
 
-- Github: [@githubhandle](https://github.com/m15e)
+- Github: [@m15e](https://github.com/m15e)
 
 ## 🤝 Contributing
 
